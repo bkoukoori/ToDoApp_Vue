@@ -133,8 +133,8 @@
 </template>
 
 <script>
-import api from "../services/api"; // your API service
-import debounce from "lodash.debounce"; // Import lodash debounce
+import api from "../services/api"; //  API service
+import debounce from "lodash.debounce"; // Importing debounce function from lodash
 
 export default {
   name: "Home",
@@ -144,8 +144,8 @@ export default {
       newTodo: {
         title: "",
         description: "",
-        priority: "", // Set default priority to empty
-        isCompleted: "", // Set default completed status to empty
+        priority: "", // Setting default priority to empty
+        isCompleted: "", // Setting default completed status to empty
       },
       editingTodo: null,
       // Filters
